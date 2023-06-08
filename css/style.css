@@ -1,0 +1,2926 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+.Home{
+    background-image: url(../images/download.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+}
+.Home .color{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: RGBA(0, 0, 0, 0.8);
+
+
+}
+.Home .header{
+    width: 100%;
+    position: relative;
+    
+}
+.Home .header .header-1{
+    width: 100%;
+    position: absolute;
+} 
+.Home .header .header-1 .header-2{
+    width:80%;
+    margin: auto;
+}
+
+.Home .header .header-1 .header-2 h1{
+    float: left;
+    font-size: 24px;
+    margin-top: 1rem;
+    color: #FF305B;
+    font-family: 'Roboto Serif', serif;
+}
+.Home .header .header-1 .header-2 ul{
+    float: right;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+.Home .header .header-1 .header-2 ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+.Home .header .header-1 .header-2 ul li .a1,.a2,.a3,.a4,.a5,.a6{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Serif', serif;
+}
+.Home .header .header-1 .header-2 ul li .a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover{
+    color: #FF305B;
+}
+.a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #FF305B;
+    font-family: 'Roboto Serif', serif;
+}
+.clear-fix{
+    clear: both;
+}
+
+.Home .header .header-1 .HomeBody{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+}
+.Home .header .header-1 .HomeBody h3{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.Home .header .header-1 .HomeBody h1{
+    color: #FF305B;
+    font-size: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.Home .header .header-1 .HomeBody .Professional{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+.Home .header .header-1 .HomeBody .Professional h4{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    
+}
+.Home .header .header-1 .HomeBody .Professional h4::after{
+    content: "";
+    animation-name: Home;
+    animation-duration: 2850ms;
+    animation-delay: 2s;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Home{
+    0%{content: "D|";}
+    5%{content: "Des|";}
+    10%{content: "Desig|";}
+    15%{content: "Designe|";}
+    20%{content: "Designer|";}
+    23%{content: "Designer |";}
+    25%{content: "Designer|";}
+    30%{content: "Designe|";}
+    35%{content: "Desig|";}
+    40%{content: "Des|";}
+    45%{content: "D|";}
+    50%{content: "|";}
+    53%{content: "D|";}
+    56%{content: "De|";}
+    59%{content: "Dev|";}
+    62%{content: "Deve|";}
+    65%{content: "Devel|";}
+    68%{content: "Develo|";}
+    71%{content: "Develop|";}
+    74%{content: "Develope|";}
+    77%{content: "Developer|";}
+    80%{content: "Develope|";}
+    83%{content: "Develop|";}
+    86%{content: "Develo|";}
+    89%{content: "Devel|";}
+    93%{content: "Deve|";}
+    95%{content: "Dev|";}
+    97%{content: "De|";}
+    99%{content: "D|";}
+    100%{content: "|";}
+}
+.About{
+    width: 100%;
+    height: 50rem;
+    padding-bottom: 5%;
+}
+.About .img{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.About .img .bord{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top: 4rem;
+    left: 24%;
+    border: 1rem #555555 solid;
+    border-radius: 2%;
+}
+.About .img img{
+    width: 53%;
+    height: 84%;
+    position: absolute;
+    top: 6.5rem;
+    left: 28%;
+    border-radius: 2%;
+    z-index: 3;
+}
+.About .img img:hover{
+    z-index: 1;
+}
+.About .img .Image_Hover{
+    width: 53%;
+    height: 84%;
+    position: absolute;
+    top: 6.5rem;
+    left: 28%;
+    border-radius: 2%;
+    background-color: RGBA(0, 0, 0, 0);
+    z-index: 2;
+    transition: background-color 3s ease-in;
+}
+.About .img .Image_Hover:hover{
+    z-index: 4;
+    background-color: RGBA(0, 0, 0, 0.57);
+}
+.About .img .Image_Hover .icon{
+    width: 40%;
+    height: 20%;
+    margin: auto;
+    margin-top: 50%;
+    text-align: center;
+}
+.About .img .Image_Hover .icon i{
+    width: 25%;
+    float: left;
+    font-size: 2rem;
+    padding-top:25% ;
+    color: #fff;
+}
+.About .img .Image_Hover .icon i:hover{
+    color: #FF305B;
+}
+
+.About .words{
+    width: 50%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    padding-top: 4rem;
+    padding-right: 10rem;
+}
+.About .words h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 34px;
+    position: relative;
+}
+.About .words h2::before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 23px;
+    background-color: #ff305b;
+    top: 1rem;
+
+}
+
+.About .words .p1{
+    color: #555555;
+    padding-bottom: 4rem ;
+    border-bottom: 1px dashed #999999;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+}
+.About .words .words-1{
+    width: 100%;
+}
+.About .words .words-1 .words-1-1{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 5%;
+}
+.About .words .words-1 p{
+    color: #555555;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.About .words .words-1 .p2{
+    color: #7E7E7E;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+}
+.About .words .words-1 strong{
+    color: black;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+}
+.About .words .words-1 .words-1-2{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 5%;
+}
+.About .words button{
+    padding: 1rem;
+    color: #fff;
+    background-color: #FF305B;
+    border: 1px #FF305B solid;
+    border-radius: 5%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+}
+.About .words button:hover{
+    background-color: #EC2403;
+}
+.About .words .button-1{
+    margin-right: 1rem;
+}
+.Services{
+    background-color: RGB(241, 241, 241);
+    padding-bottom: 5%;
+    text-align: center;
+}
+.Services h2, .Portfolio h2 , .Testimonial h2, .Blog h2, .contact h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4rem;
+    color: #333333;
+    position: relative;
+    padding-top: 5rem;
+}
+.ServicesLine{
+    width: 13.6rem;
+    height: 2px;
+    background-color: #FF305B;
+    margin: 1.5rem auto;
+}
+.Services h2::before, .Portfolio h2::before, .Testimonial h2::before, .Blog h2::before, .contact h2::before{
+    content: "";
+    position: absolute;
+    width: 7.2rem;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    top: 110%;
+    left: 47.5%;
+}
+.Services h2::after, .Portfolio h2::after, .Testimonial h2::after, .Blog h2::after, .contact h2::after {
+    content: "";
+    position: absolute;
+    width: 7.2rem;
+    height: 1px;
+    background-color: #FF305B;
+    top: 122%;
+    right: 46.8%;
+    margin: auto;
+}
+.Services .Services-1{
+    width: 85%;
+    margin: auto;
+    padding-top: 3.5rem;
+}
+.Services .Services-1 .Services-1-1{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.Services .Services-1 .Services-1-1:hover{
+    border: 1px #fff solid;
+    border-radius: 2%;
+    background-color: #fff;
+}
+
+.Services .Services-1 .Services-1-1 i{
+    font-size: 32px;
+    color: #FF305B;
+}
+.Services .Services-1 .Services-1-1:Hover i{
+    font-size: 4rem;
+}
+ 
+.Services .Services-1 .Services-1-1 h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    position: relative;
+    padding-top: 1rem;
+}
+.Services .Services-1 .Services-1-1:Hover h3{
+    padding-top: 2px;
+}
+.Services .Services-1 .Services-1-1 p{
+    color: #555555;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+}
+.Portfolio{
+    padding-bottom: 5%;
+    text-align: center;
+}
+.Portfolio .Portfolio-1{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.Portfolio .Portfolio-1 button{
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: #fff;
+    border: 0px #fff;
+    color: black;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    float: left;
+    width: 25%;
+}
+.Portfolio .Portfolio-1 .Portfolio-1-1{
+    color: #FF305B;
+}
+.Portfolio .Portfolio-2{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1{
+    width: 33.333%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 4% 2% 0 2%;
+    text-align: right;
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1 img{
+    width: 100%;
+    height: 100%;
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1:hover{
+    background-color: RGBA(0, 0, 0, 0);
+    
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1{
+    position: absolute;
+    width: 88%;
+    height: 85%;
+    top: 100%;
+    background-color: RGBA(0, 0, 0, 0.57);
+    transition: 0.7s;
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1{
+    top: 15%;
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1{
+    position: relative;
+    top: 87%;
+    left: -1%;
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+    font-size: 24px;
+    color: black;
+}
+.Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+    color: #FF305B;
+}
+.Portfolio-3{
+    width: 100%;
+    background-color: RGB(241, 241, 241);
+    text-align: center;
+}
+.Portfolio-3 .Portfolio-3-1{
+    width: 25%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5%;
+}
+.Portfolio-3 .Portfolio-3-1 i{
+    font-size: 32px;
+    color: #FF305B;
+}
+.Portfolio-3 .Portfolio-3-1 h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    color: #333333;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Portfolio-3 .Portfolio-3-1 h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #555555;
+}
+.Testimonial{
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.Testimonial .Testimonial-1{
+    width: 60%;
+    height: 30rem;
+    border: 0px #555555 solid ;
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    background-color: RGB(241, 241, 241);
+}
+.Testimonial .Testimonial-1 .Testimonial-1-1{
+    position: absolute;
+    width: 29%;
+    height: 110%;
+    background-color: #FF305B;
+    left: -16%;
+    top: -39%;
+    transform: rotate(42deg);
+}
+
+.Testimonial .Testimonial-1 img{
+    position: absolute;
+    width: 17%;
+    height: 28%;
+    left: 3.8rem;
+    top: 7.2rem;
+    border-radius: 50%;
+}
+.Testimonial .Testimonial-1 .Testimonial-1-3{
+    position: absolute;
+    width: 77%;
+    top: 6.2rem;
+    left: 17.1rem;
+    text-align: left;
+}
+.Testimonial .Testimonial-1 .Testimonial-1-3 h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    color: #333333;
+    padding-bottom: 1rem;
+}
+.Testimonial .Testimonial-1 .Testimonial-1-3 h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: #777777;
+    padding-bottom: 1rem;
+}
+.Testimonial .Testimonial-1 .Testimonial-1-3 a{
+    color: #777777;
+}
+.Testimonial .Testimonial-1 .Testimonial-1-3 p{
+    color: #555555;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.Testimonial .Testimonial-1 .Testimonial-1-3 .stars i{
+    color: #F1C30D;
+    font-size: 16px;
+}
+.Testimonial .Testimonial-2{
+    width: 5%;
+    height: 11px;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+.Testimonial .Testimonial-2 .Testimonial-2-1{
+    width: 42%;
+    height: 100%;
+    background-color: #FF305B;
+    border-radius: 34%;
+    float: left;
+    margin-left: 1rem;
+}
+.Testimonial .Testimonial-2 .Testimonial-2-2{
+    width: 12%;
+    height: 69%;
+    border: 1px #FF305B solid;
+    border-radius: 50%;
+    margin-right: 1rem;
+    float: right;
+}
+.Blog{
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: RGB(241, 241, 241);
+}
+.Blog .Blog-1{
+    width: 90%;
+    margin: auto;
+}
+.Blog .Blog-1 .Blog-1-1{
+    width: 33.333%;
+    border-radius: 3px;
+    text-align: left;
+    float: left;
+    box-sizing: border-box;
+    padding: 1%;
+}
+.Blog .Blog-1 .Blog-1-1 img{
+    width: 100%;
+    aspect-ratio: 2 / 1.1;
+}
+.Blog .Blog-1 .Blog-1-1 iframe{
+    width: 100%;
+    aspect-ratio: 2 / 1.1;
+}
+.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #fff;
+}
+.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 p{
+    color: #555555;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    padding-bottom: 1rem;
+}
+.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a{
+    color: #333333;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a:hover,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a:hover{
+    color: #FF305B;
+}
+.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4{
+    color: #555555;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.contact{
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.contact .contact-1{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.contact .contact-1 .contact-1-1{
+    width: 100%;
+}
+.contact .contact-1 .contact-1-1 input{
+    width: 45%;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 1px #ccc solid;
+    border-radius: 2px;
+    float: left;
+    outline: 0;
+    color: #000;
+    transition: 0.3s ease;
+}
+.contact .contact-1 .contact-1-1 input[type="email"]{
+    margin-left: 10%;
+}
+.contact .contact-1 input[name="Subject"]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 2px;
+    display: block;
+    margin-top: 3rem;
+    outline: 0;
+    color: #000;
+    transition: 0.3s ease;
+}
+.contact .contact-1 .textarea{
+    width: 100%;
+    height: 67px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 2px;
+    display: block;
+    margin-top: 3rem;
+    resize: none;
+    font-size: 16px;
+    outline: 0;
+    color: #000;
+    transition: 0.3s ease-in;
+}
+.contact .contact-1 input:focus{
+    border: 1px #a94442 solid;
+    box-shadow: 1px 1px 3px 0px #a94442;
+}
+.contact .contact-1 .textarea:focus{
+    border: 1px #a94442 solid;
+    box-shadow: 1px 1px 5px 0px #a94442;
+}
+.contact .contact-1 button{
+    padding: 1rem;
+    color: #fff;
+    background-color: #FF305B;
+    border: 1px #FF305B solid;
+    border-radius: 5%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+.contact .contact-1 button:hover{
+    background-color: #EC2403;
+}
+.fotter{
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+}
+.fotter .fotter-1{
+    width: 40%;
+    margin: auto;
+}
+.fotter .fotter-1 .icon{
+    width: 40%;
+    height: 20%;
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.fotter .fotter-1 .icon i{
+    width: 25%;
+    float: left;
+    font-size: 20px;
+    padding-top:25% ;
+    color: #fff;
+}
+.fotter .fotter-1 .icon i:hover{
+    color: #FF305B;
+}
+.fotter .fotter-1 p{
+    padding-bottom: 10%;
+    color: #fff;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+}
+.fotter .fotter-1 a{
+    color: #FF305B;
+    text-decoration: none;
+}
+.fotter .fotter-1 a:hover{
+    text-decoration-line: underline;
+}
+/* Media One */
+@media (max-width: 991.98px) { 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 10px;
+        scroll-behavior: smooth;
+    }
+    .Home{
+        background-image: url(../images/download.jpg);
+        height: 100vh;
+        background-size: 100% 100%;
+        background-position: center center;
+        position: relative;
+    }
+    .Home .color{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: RGBA(0, 0, 0, 0.8);
+    
+    
+    }
+    .Home .header{
+        width: 100%;
+        position: relative;
+        
+    }
+    .Home .header .header-1{
+        width: 100%;
+        position: absolute;
+    } 
+    .Home .header .header-1 .header-2{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .Home .header .header-1 .header-2 h1{
+        float: left;
+        font-size: 24px;
+        margin-top: 1rem;
+        color: #FF305B;
+        font-family: 'Roboto Serif', serif;
+    }
+    .Home .header .header-1 .header-2 ul{
+        float: right;
+        margin-top: 1.5rem;
+        list-style: none;
+    }
+    .Home .header .header-1 .header-2 ul li{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 2rem;
+    }
+    .Home .header .header-1 .header-2 ul li .a1,.a2,.a3,.a4,.a5,.a6{
+        font-size: 16px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+    }
+    .Home .header .header-1 .header-2 ul li .a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover{
+        color: #FF305B;
+    }
+    .a{
+        font-size: 16px;
+        text-decoration: none;
+        color: #FF305B;
+        font-family: 'Roboto Serif', serif;
+    }
+    .clear-fix{
+        clear: both;
+    }
+    
+    .Home .header .header-1 .HomeBody{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .Home .header .header-1 .HomeBody h3{
+        font-size: 24px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .Home .header .header-1 .HomeBody h1{
+        color: #FF305B;
+        font-size: 70px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .Home .header .header-1 .HomeBody .Professional{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .Home .header .header-1 .HomeBody .Professional h4{
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        
+    }
+    .Home .header .header-1 .HomeBody .Professional h4::after{
+        content: "";
+        animation-name: Home;
+        animation-duration: 2850ms;
+        animation-delay: 2s;
+        animation-direction:alternate;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes Home{
+        0%{content: "D|";}
+        5%{content: "Des|";}
+        10%{content: "Desig|";}
+        15%{content: "Designe|";}
+        20%{content: "Designer|";}
+        23%{content: "Designer |";}
+        25%{content: "Designer|";}
+        30%{content: "Designe|";}
+        35%{content: "Desig|";}
+        40%{content: "Des|";}
+        45%{content: "D|";}
+        50%{content: "|";}
+        53%{content: "D|";}
+        56%{content: "De|";}
+        59%{content: "Dev|";}
+        62%{content: "Deve|";}
+        65%{content: "Devel|";}
+        68%{content: "Develo|";}
+        71%{content: "Develop|";}
+        74%{content: "Develope|";}
+        77%{content: "Developer|";}
+        80%{content: "Develope|";}
+        83%{content: "Develop|";}
+        86%{content: "Develo|";}
+        89%{content: "Devel|";}
+        93%{content: "Deve|";}
+        95%{content: "Dev|";}
+        97%{content: "De|";}
+        99%{content: "D|";}
+        100%{content: "|";}
+    }
+    .About{
+        width: 100%;
+        height: 50rem;
+        padding-bottom: 5%;
+    }
+    .About .img{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        float: left;
+    }
+    .About .img .bord{
+        width: 50%;
+        height: 60%;
+        position: absolute;
+        top: 4rem;
+        left: 24%;
+        border: 1rem #555555 solid;
+        border-radius: 2%;
+    }
+    .About .img img {
+        width: 53%;
+        height: 64%;
+        position: absolute;
+        top: 6.5rem;
+        left: 30%;
+        border-radius: 2%;
+        z-index: 3;
+    }
+    .About .img img:hover{
+        z-index: 1;
+    }
+    .About .img .Image_Hover{
+        width: 53%;
+        height: 64%;
+        position: absolute;
+        top: 6.5rem;
+        left: 30%;
+        border-radius: 2%;
+        background-color: RGBA(0, 0, 0, 0);
+        z-index: 2;
+        transition: background-color 3s ease-in;
+    }
+    .About .img .Image_Hover:hover{
+        z-index: 4;
+        background-color: RGBA(0, 0, 0, 0.57);
+    }
+    .About .img .Image_Hover .icon{
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        margin-top: 50%;
+        text-align: center;
+    }
+    .About .img .Image_Hover .icon i{
+        width: 50%;
+        float: left;
+        font-size: 2rem;
+        box-sizing: border-box;
+        padding: 25% 5%;
+        color: #fff;
+    }
+    .About .img .Image_Hover .icon i:hover{
+        color: #FF305B;
+    }
+    
+    .About .words{
+        width: 50%;
+        height: 100%;
+        float: right;
+        box-sizing: border-box;
+        padding-top: 4rem;
+        padding-right: 3rem;
+    }
+    .About .words h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 34px;
+        position: relative;
+    }
+    .About .words h2::before{
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 23px;
+        background-color: #ff305b;
+        top: 1rem;
+    
+    }
+    
+    .About .words .p1{
+        color: #555555;
+        padding-bottom: 1rem ;
+        border-bottom: 1px dashed #999999;
+        font-family: 'Roboto Serif', serif;
+        font-size: 11px;
+    }
+    .About .words .words-1{
+        width: 100%;
+    }
+    .About .words .words-1 .words-1-1{
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 5%;
+    }
+    .About .words .words-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 11px;
+        padding-bottom: 15px;
+    }
+    .About .words .words-1 .p2{
+        color: #7E7E7E;
+        font-family: 'Roboto Serif', serif;
+        font-size: 10px;
+    }
+    .About .words .words-1 strong{
+        color: black;
+        font-family: 'Roboto Serif', serif;
+        font-size: 11px;
+    }
+    .About .words .words-1 .words-1-2{
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        padding-left: 5%;
+    }
+    .About .words button{
+        padding: 1rem;
+        color: #fff;
+        background-color: #FF305B;
+        border: 1px #FF305B solid;
+        border-radius: 5%;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words button:hover{
+        background-color: #EC2403;
+    }
+    .About .words .button-1{
+        margin-right: 1rem;
+    }
+    .Services{
+        background-color: RGB(241, 241, 241);
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Services h2, .Portfolio h2 , .Testimonial h2, .Blog h2, .contact h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4rem;
+        color: #333333;
+        position: relative;
+        padding-top: 5rem;
+    }
+    .ServicesLine{
+        width: 13.6rem;
+        height: 2px;
+        background-color: #FF305B;
+        margin: 1.5rem auto;
+    }
+    .Services h2::before, .Portfolio h2::before, .Testimonial h2::before, .Blog h2::before, .contact h2::before{
+        content: "";
+        position: absolute;
+        width: 7.2rem;
+        height: 1px;
+        background-color: #FF305B;
+        margin: auto;
+        top: 110%;
+        left: 46.5%;
+    }
+    .Services h2::after, .Portfolio h2::after, .Testimonial h2::after, .Blog h2::after, .contact h2::after {
+        content: "";
+        position: absolute;
+        width: 7.2rem;
+        height: 1px;
+        background-color: #FF305B;
+        top: 122%;
+        right: 45.8%;
+        margin: auto;
+    }
+    .Services .Services-1{
+        width: 85%;
+        margin: auto;
+        padding-top: 3.5rem;
+    }
+    .Services .Services-1 .Services-1-1{
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    .Services .Services-1 .Services-1-1:hover{
+        border: 1px #fff solid;
+        border-radius: 2%;
+        background-color: #fff;
+    }
+    
+    .Services .Services-1 .Services-1-1 i{
+        font-size: 32px;
+        color: #FF305B;
+    }
+    .Services .Services-1 .Services-1-1:Hover i{
+        font-size: 4rem;
+    }
+     
+    .Services .Services-1 .Services-1-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: #333333;
+        position: relative;
+        padding-top: 1rem;
+    }
+    .Services .Services-1 .Services-1-1:Hover h3{
+        padding-top: 2px;
+        font-size: 16px;
+    }
+    .Services .Services-1 .Services-1-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 11px;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+    }
+    .Portfolio{
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Portfolio .Portfolio-1{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .Portfolio .Portfolio-1 button{
+        box-sizing: border-box;
+        padding: 1rem;
+        background-color: #fff;
+        border: 0px #fff;
+        color: black;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+        float: left;
+        width: 25%;
+    }
+    .Portfolio .Portfolio-1 .Portfolio-1-1{
+        color: #FF305B;
+    }
+    .Portfolio .Portfolio-2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1{
+        width: 33.333%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+        padding: 4% 2% 0 2%;
+        text-align: right;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:hover{
+        background-color: RGBA(0, 0, 0, 0);
+        
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1{
+        position: absolute;
+        width: 88%;
+        height: 85%;
+        top: 100%;
+        background-color: RGBA(0, 0, 0, 0.57);
+        transition: 0.7s;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1{
+        top: 15%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1{
+        position: relative;
+        top: 83%;
+        left: -1%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+        font-size: 24px;
+        color: black;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+        color: #FF305B;
+    }
+    .Portfolio-3{
+        width: 100%;
+        background-color: RGB(241, 241, 241);
+        text-align: center;
+    }
+    .Portfolio-3 .Portfolio-3-1{
+        width: 25%;
+        float: left;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 4%;
+    }
+    .Portfolio-3 .Portfolio-3-1 i{
+        font-size: 32px;
+        color: #FF305B;
+    }
+    .Portfolio-3 .Portfolio-3-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 26px;
+        color: #333333;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .Portfolio-3 .Portfolio-3-1 h5{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: #555555;
+    }
+    .Testimonial{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Testimonial .Testimonial-1{
+        width: 60%;
+        height: 30rem;
+        border: 0px #555555 solid ;
+        margin: auto;
+        margin-top: 4rem;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        background-color: RGB(241, 241, 241);
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-1{
+        position: absolute;
+        width: 29%;
+        height: 125%;
+        background-color: #FF305B;
+        left: -11%;
+        top: -39%;
+        transform: rotate(34deg);
+    }
+    
+    .Testimonial .Testimonial-1 img{
+        position: absolute;
+        width: 17%;
+        height: 28%;
+        left: 3.8rem;
+        top: 7.2rem;
+        border-radius: 50%;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3{
+        position: absolute;
+        width: 70%;
+        top: 6.2rem;
+        left: 26.1%;
+        text-align: left;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 26px;
+        color: #333333;
+        padding-bottom: 1rem;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 h4{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        color: #777777;
+        padding-bottom: 1rem;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 a{
+        color: #777777;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 .stars i{
+        color: #F1C30D;
+        font-size: 16px;
+    }
+    .Testimonial .Testimonial-2{
+        width: 5%;
+        height: 11px;
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Testimonial .Testimonial-2 .Testimonial-2-1{
+        width: 42%;
+        height: 100%;
+        background-color: #FF305B;
+        border-radius: 34%;
+        float: left;
+        margin-left: 5px;
+    }
+    .Testimonial .Testimonial-2 .Testimonial-2-2{
+        width: 12%;
+        height: 69%;
+        border: 1px #FF305B solid;
+        border-radius: 50%;
+        margin-right: 5px;
+        float: right;
+        margin-top: 1px;
+    }
+    .Blog{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+        background-color: RGB(241, 241, 241);
+    }
+    .Blog .Blog-1{
+        width: 90%;
+        margin: auto;
+    }
+    .Blog .Blog-1 .Blog-1-1{
+        width: 33.333%;
+        border-radius: 3px;
+        text-align: left;
+        float: left;
+        box-sizing: border-box;
+        padding: 1%;
+    }
+    .Blog .Blog-1 .Blog-1-1 img{
+        width: 100%;
+        aspect-ratio: 2 / 1.1;
+    }
+    .Blog .Blog-1 .Blog-1-1 iframe{
+        width: 100%;
+        aspect-ratio: 2 / 1.1;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5%;
+        background-color: #fff;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 21px;
+        color: #333333;
+        padding-bottom: 1rem;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a{
+        color: #333333;
+        text-decoration: none;
+        transition: 0.7s;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a:hover,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a:hover{
+        color: #FF305B;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .contact{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .contact .contact-1{
+        width: 50%;
+        margin: auto;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .contact .contact-1 .contact-1-1{
+        width: 100%;
+    }
+    .contact .contact-1 .contact-1-1 input{
+        width: 45%;
+        box-sizing: border-box;
+        padding: 1rem;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        float: left;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    .contact .contact-1 .contact-1-1 input[type="email"]{
+        margin-left: 10%;
+    }
+    .contact .contact-1 input[name="Subject"]{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        display: block;
+        margin-top: 3rem;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    .contact .contact-1 .textarea{
+        width: 100%;
+        height: 67px;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        display: block;
+        margin-top: 3rem;
+        resize: none;
+        font-size: 16px;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease-in;
+    }
+    .contact .contact-1 input:focus{
+        border: 1px #a94442 solid;
+        box-shadow: 1px 1px 3px 0px #a94442;
+    }
+    .contact .contact-1 .textarea:focus{
+        border: 1px #a94442 solid;
+        box-shadow: 1px 1px 5px 0px #a94442;
+    }
+    .contact .contact-1 button{
+        padding: 1rem;
+        color: #fff;
+        background-color: #FF305B;
+        border: 1px #FF305B solid;
+        border-radius: 5%;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+    .contact .contact-1 button:hover{
+        background-color: #EC2403;
+    }
+    .fotter{
+        width: 100%;
+        background-color: #333333;
+        text-align: center;
+    }
+    .fotter .fotter-1{
+        width: 40%;
+        margin: auto;
+    }
+    .fotter .fotter-1 .icon{
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        margin-top: 20%;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .fotter .fotter-1 .icon i{
+        width: 25%;
+        float: left;
+        font-size: 20px;
+        padding-top:25% ;
+        color: #fff;
+    }
+    .fotter .fotter-1 .icon i:hover{
+        color: #FF305B;
+    }
+    .fotter .fotter-1 p{
+        padding-bottom: 10%;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .fotter .fotter-1 a{
+        color: #FF305B;
+        text-decoration: none;
+    }
+    .fotter .fotter-1 a:hover{
+        text-decoration-line: underline;
+    }
+}
+/* End of Media One */
+/* Media Two */
+@media (max-width: 767.98px) { 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 10px;
+        scroll-behavior: smooth;
+    }
+    .Home{
+        background-image: url(../images/download.jpg);
+        height: 100vh;
+        background-size: 100% 100%;
+        background-position: center center;
+        position: relative;
+    }
+    .Home .color{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: RGBA(0, 0, 0, 0.8);
+    
+    
+    }
+    .Home .header{
+        width: 100%;
+        position: relative;
+        
+    }
+    .Home .header .header-1{
+        width: 100%;
+        position: absolute;
+    } 
+    .Home .header .header-1 .header-2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .Home .header .header-1 .header-2 h1{
+        font-size: 24px;
+        box-sizing: border-box;
+        padding: 1rem 44.5%;
+        color: #FF305B;
+        font-family: 'Roboto Serif', serif;
+    }
+    .Home .header .header-1 .header-2 ul{
+        list-style: none;
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+    .Home .header .header-1 .header-2 ul li{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 2rem;
+    }
+    .Home .header .header-1 .header-2 ul li .a1,.a2,.a3,.a4,.a5,.a6{
+        font-size: 13px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+    }
+    .Home .header .header-1 .header-2 ul li .a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover{
+        color: #FF305B;
+    }
+    .a{
+        font-size: 13px;
+        text-decoration: none;
+        color: #FF305B;
+        font-family: 'Roboto Serif', serif;
+    }
+    .clear-fix{
+        clear: both;
+    }
+    
+    .Home .header .header-1 .HomeBody{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 25%;
+    }
+    .Home .header .header-1 .HomeBody h3{
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .Home .header .header-1 .HomeBody h1{
+        color: #FF305B;
+        font-size: 50px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .Home .header .header-1 .HomeBody .Professional{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .Home .header .header-1 .HomeBody .Professional h4{
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        
+    }
+    .Home .header .header-1 .HomeBody .Professional h4::after{
+        content: "";
+        animation-name: Home;
+        animation-duration: 2850ms;
+        animation-delay: 2s;
+        animation-direction:alternate;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes Home{
+        0%{content: "D|";}
+        5%{content: "Des|";}
+        10%{content: "Desig|";}
+        15%{content: "Designe|";}
+        20%{content: "Designer|";}
+        23%{content: "Designer |";}
+        25%{content: "Designer|";}
+        30%{content: "Designe|";}
+        35%{content: "Desig|";}
+        40%{content: "Des|";}
+        45%{content: "D|";}
+        50%{content: "|";}
+        53%{content: "D|";}
+        56%{content: "De|";}
+        59%{content: "Dev|";}
+        62%{content: "Deve|";}
+        65%{content: "Devel|";}
+        68%{content: "Develo|";}
+        71%{content: "Develop|";}
+        74%{content: "Develope|";}
+        77%{content: "Developer|";}
+        80%{content: "Develope|";}
+        83%{content: "Develop|";}
+        86%{content: "Develo|";}
+        89%{content: "Devel|";}
+        93%{content: "Deve|";}
+        95%{content: "Dev|";}
+        97%{content: "De|";}
+        99%{content: "D|";}
+        100%{content: "|";}
+    }
+    .About{
+        width: 100%;
+        height: 100rem;
+        padding-bottom: 5%;
+    }
+    .About .img{
+        width: 50%;
+        height: 40%;
+        position: relative;
+        box-sizing: border-box;
+        padding: 0 50%;
+    }
+    .About .img .bord{
+        position: absolute;
+        border: 0 #555555 solid;
+    }
+    .About .img img {
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        top: 6.5rem;
+        left: 15%;
+        border-radius: 2%;
+        z-index: 3;
+    }
+    .About .img img:hover{
+        z-index: 1;
+    }
+    .About .img .Image_Hover{
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        top: 6.5rem;
+        left: 15%;
+        border-radius: 2%;
+        background-color: RGBA(0, 0, 0, 0);
+        z-index: 2;
+        transition: background-color 3s ease-in;
+    }
+    .About .img .Image_Hover:hover{
+        z-index: 4;
+        background-color: RGBA(0, 0, 0, 0.57);
+    }
+    .About .img .Image_Hover .icon{
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        margin-top: 20%;
+        text-align: center;
+    }
+    .About .img .Image_Hover .icon i{
+        width: 50%;
+        float: left;
+        font-size: 2rem;
+        box-sizing: border-box;
+        padding: 25% 5%;
+        color: #fff;
+    }
+    .About .img .Image_Hover .icon i:hover{
+        color: #FF305B;
+    }
+    
+    .About .words{
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+        padding-top: 0rem;
+        padding: 0 15%;
+    }
+    .About .words h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 34px;
+        position: relative;
+    }
+    .About .words h2::before{
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 23px;
+        background-color: #ff305b;
+        top: 1rem;
+    
+    }
+    
+    .About .words .p1{
+        color: #555555;
+        padding-bottom: 1rem ;
+        border-bottom: 1px dashed #999999;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words .words-1{
+        width: 100%;
+    }
+    .About .words .words-1 .words-1-1{
+        width: 100%;
+        float: left;
+    }
+    .About .words .words-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .About .words .words-1 .p2{
+        color: #7E7E7E;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words .words-1 strong{
+        color: black;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words .words-1 .words-1-2{
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding-left: 0;
+    }
+    .About .words button{
+        padding: 1rem;
+        color: #fff;
+        background-color: #FF305B;
+        border: 1px #FF305B solid;
+        border-radius: 5%;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words button:hover{
+        background-color: #EC2403;
+    }
+    .About .words .button-1{
+        margin-right: 1rem;
+    }
+    .Services{
+        background-color: RGB(241, 241, 241);
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Services h2, .Portfolio h2 , .Testimonial h2, .Blog h2, .contact h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4rem;
+        color: #333333;
+        position: relative;
+        padding-top: 5rem;
+    }
+    .ServicesLine{
+        width: 13.6rem;
+        height: 2px;
+        background-color: #FF305B;
+        margin: 1.5rem auto;
+    }
+    .Services h2::before, .Portfolio h2::before, .Testimonial h2::before, .Blog h2::before, .contact h2::before{
+        content: "";
+        position: absolute;
+        width: 7.2rem;
+        height: 1px;
+        background-color: #FF305B;
+        margin: auto;
+        top: 110%;
+        left: 45.5%;
+    }
+    .Services h2::after, .Portfolio h2::after, .Testimonial h2::after, .Blog h2::after, .contact h2::after {
+        content: "";
+        position: absolute;
+        width: 7.2rem;
+        height: 1px;
+        background-color: #FF305B;
+        top: 122%;
+        right: 44%;
+        margin: auto;
+    }
+    .Services .Services-1{
+        width: 85%;
+        margin: auto;
+        padding-top: 3.5rem;
+    }
+    .Services .Services-1 .Services-1-1{
+        width: 50%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding: 2rem 1rem;
+    }
+    .Services-1-1-clear-fix{
+        clear: both;
+    }
+    .Services .Services-1 .Services-1-2{
+        width: 50%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    .Services .Services-1 .Services-1-1:hover{
+        border: 1px #fff solid;
+        height: 100%;
+        border-radius: 2%;
+        background-color: #fff;
+    }
+    
+    .Services .Services-1 .Services-1-1 i{
+        font-size: 32px;
+        color: #FF305B;
+    }
+    .Services .Services-1 .Services-1-1:Hover i{
+        font-size: 4rem;
+    }
+     
+    .Services .Services-1 .Services-1-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: #333333;
+        position: relative;
+        padding-top: 1rem;
+    }
+    .Services .Services-1 .Services-1-1:Hover h3{
+        padding-top: 2px;
+        font-size: 16px;
+    }
+    .Services .Services-1 .Services-1-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 11px;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+    }
+    .Portfolio{
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Portfolio .Portfolio-1{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .Portfolio .Portfolio-1 button{
+        box-sizing: border-box;
+        padding: 1rem;
+        background-color: #fff;
+        border: 0px #fff;
+        color: black;
+        font-family: 'Roboto Serif', serif;
+        font-size: 13px;
+        float: left;
+        width: 25%;
+    }
+    .Portfolio .Portfolio-1 .Portfolio-1-1{
+        color: #FF305B;
+    }
+    .Portfolio .Portfolio-2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+        padding: 4% 2% 0 2%;
+        text-align: right;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:hover{
+        background-color: RGBA(0, 0, 0, 0);
+        
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1{
+        position: absolute;
+        width: 92%;
+        height: 88%;
+        top: 100%;
+        background-color: RGBA(0, 0, 0, 0.57);
+        transition: 0.7s;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1{
+        top: 10.7%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1{
+        position: relative;
+        top: 85%;
+        left: -1%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+        font-size: 24px;
+        color: black;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+        color: #FF305B;
+    }
+    .Portfolio-3{
+        width: 100%;
+        background-color: RGB(241, 241, 241);
+        text-align: center;
+    }
+    .Portfolio-3 .Portfolio-3-1{
+        width: 50%;
+        float: left;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 4%;
+    }
+    .Portfolio-3 .Portfolio-3-1 i{
+        font-size: 32px;
+        color: #FF305B;
+    }
+    .Portfolio-3 .Portfolio-3-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 26px;
+        color: #333333;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .Portfolio-3 .Portfolio-3-1 h5{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: #555555;
+    }
+    .Testimonial{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Testimonial .Testimonial-1{
+        width: 75%;
+        height: 30rem;
+        border: 0px #555555 solid ;
+        margin: auto;
+        margin-top: 4rem;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        background-color: RGB(241, 241, 241);
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-1{
+        position: absolute;
+        width: 29%;
+        height: 125%;
+        background-color: #FF305B;
+        left: -11%;
+        top: -39%;
+        transform: rotate(34deg);
+    }
+    
+    .Testimonial .Testimonial-1 img{
+        position: absolute;
+        width: 17%;
+        height: 28%;
+        left: 3.8rem;
+        top: 7.2rem;
+        border-radius: 50%;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3{
+        position: absolute;
+        width: 70%;
+        top: 6.2rem;
+        left: 26.1%;
+        text-align: left;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 26px;
+        color: #333333;
+        padding-bottom: 1rem;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 h4{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        color: #777777;
+        padding-bottom: 1rem;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 a{
+        color: #777777;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 .stars i{
+        color: #F1C30D;
+        font-size: 16px;
+    }
+    .Testimonial .Testimonial-2{
+        width: 5%;
+        height: 11px;
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Testimonial .Testimonial-2 .Testimonial-2-1{
+        width: 42%;
+        height: 100%;
+        background-color: #FF305B;
+        border-radius: 34%;
+        float: left;
+        margin-left: 5px;
+    }
+    .Testimonial .Testimonial-2 .Testimonial-2-2{
+        width: 12%;
+        height: 69%;
+        border: 1px #FF305B solid;
+        border-radius: 50%;
+        margin-right: 5px;
+        float: right;
+        margin-top: 1px;
+    }
+    .Blog{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+        background-color: RGB(241, 241, 241);
+    }
+    .Blog .Blog-1{
+        width: 90%;
+        margin: auto;
+    }
+    .Blog .Blog-1 .Blog-1-1{
+        width: 100%;
+        border-radius: 3px;
+        text-align: left;
+        float: left;
+        box-sizing: border-box;
+        padding: 5% 8%;
+    }
+    .Blog .Blog-1 .Blog-1-1 img{
+        width: 100%;
+        aspect-ratio: 2 / 1.1;
+    }
+    .Blog .Blog-1 .Blog-1-1 iframe{
+        width: 100%;
+        aspect-ratio: 2 / 1.1;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5%;
+        background-color: #fff;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 21px;
+        color: #333333;
+        padding-bottom: 1rem;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a{
+        color: #333333;
+        text-decoration: none;
+        transition: 0.7s;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a:hover,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a:hover{
+        color: #FF305B;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .contact{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .contact .contact-1{
+        width: 75%;
+        margin: auto;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .contact .contact-1 .contact-1-1{
+        width: 100%;
+    }
+    .contact .contact-1 .contact-1-1 input{
+        width: 45%;
+        box-sizing: border-box;
+        padding: 1rem;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        float: left;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    .contact .contact-1 .contact-1-1 input[type="email"]{
+        margin-left: 10%;
+    }
+    .contact .contact-1 input[name="Subject"]{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        display: block;
+        margin-top: 3rem;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    .contact .contact-1 .textarea{
+        width: 100%;
+        height: 67px;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        display: block;
+        margin-top: 3rem;
+        resize: none;
+        font-size: 16px;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease-in;
+    }
+    .contact .contact-1 input:focus{
+        border: 1px #a94442 solid;
+        box-shadow: 1px 1px 3px 0px #a94442;
+    }
+    .contact .contact-1 .textarea:focus{
+        border: 1px #a94442 solid;
+        box-shadow: 1px 1px 5px 0px #a94442;
+    }
+    .contact .contact-1 button{
+        padding: 1rem;
+        color: #fff;
+        background-color: #FF305B;
+        border: 1px #FF305B solid;
+        border-radius: 5%;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+    .contact .contact-1 button:hover{
+        background-color: #EC2403;
+    }
+    .fotter{
+        width: 100%;
+        background-color: #333333;
+        text-align: center;
+    }
+    .fotter .fotter-1{
+        width: 50%;
+        margin: auto;
+    }
+    .fotter .fotter-1 .icon{
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        margin-top: 20%;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .fotter .fotter-1 .icon i{
+        width: 25%;
+        float: left;
+        font-size: 20px;
+        padding-top:25% ;
+        color: #fff;
+    }
+    .fotter .fotter-1 .icon i:hover{
+        color: #FF305B;
+    }
+    .fotter .fotter-1 p{
+        padding-bottom: 10%;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .fotter .fotter-1 a{
+        color: #FF305B;
+        text-decoration: none;
+    }
+    .fotter .fotter-1 a:hover{
+        text-decoration-line: underline;
+    }
+}
+/* End of Media Two */
+/* Last Media */
+@media (max-width: 575.98px) { 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 10px;
+        scroll-behavior: smooth;
+    }
+    .Home{
+        background-image: url(../images/download.jpg);
+        height: 100vh;
+        background-size: 100% 100%;
+        background-position: center center;
+        position: relative;
+    }
+    .Home .color{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: RGBA(0, 0, 0, 0.8);
+    
+    
+    }
+    .Home .header{
+        width: 100%;
+        position: relative;
+        
+    }
+    .Home .header .header-1{
+        width: 100%;
+        position: absolute;
+    } 
+    .Home .header .header-1 .header-2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .Home .header .header-1 .header-2 h1{
+        font-size: 24px;
+        box-sizing: border-box;
+        padding: 1rem 44.5%;
+        color: #FF305B;
+        font-family: 'Roboto Serif', serif;
+    }
+    .Home .header .header-1 .header-2 ul{
+        list-style: none;
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+    .Home .header .header-1 .header-2 ul li{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 2rem;
+    }
+    .Home .header .header-1 .header-2 ul li .a1,.a2,.a3,.a4,.a5,.a6{
+        font-size: 12px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+    }
+    .Home .header .header-1 .header-2 ul li .a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover{
+        color: #FF305B;
+    }
+    .a{
+        font-size: 12px;
+        text-decoration: none;
+        color: #FF305B;
+        font-family: 'Roboto Serif', serif;
+    }
+    .clear-fix{
+        clear: both;
+    }
+    
+    .Home .header .header-1 .HomeBody{
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-top: 25%;
+    }
+    .Home .header .header-1 .HomeBody h3{
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .Home .header .header-1 .HomeBody h1{
+        color: #FF305B;
+        font-size: 50px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .Home .header .header-1 .HomeBody .Professional{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .Home .header .header-1 .HomeBody .Professional h4{
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        
+    }
+    .Home .header .header-1 .HomeBody .Professional h4::after{
+        content: "";
+        animation-name: Home;
+        animation-duration: 2850ms;
+        animation-delay: 2s;
+        animation-direction:alternate;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes Home{
+        0%{content: "D|";}
+        5%{content: "Des|";}
+        10%{content: "Desig|";}
+        15%{content: "Designe|";}
+        20%{content: "Designer|";}
+        23%{content: "Designer |";}
+        25%{content: "Designer|";}
+        30%{content: "Designe|";}
+        35%{content: "Desig|";}
+        40%{content: "Des|";}
+        45%{content: "D|";}
+        50%{content: "|";}
+        53%{content: "D|";}
+        56%{content: "De|";}
+        59%{content: "Dev|";}
+        62%{content: "Deve|";}
+        65%{content: "Devel|";}
+        68%{content: "Develo|";}
+        71%{content: "Develop|";}
+        74%{content: "Develope|";}
+        77%{content: "Developer|";}
+        80%{content: "Develope|";}
+        83%{content: "Develop|";}
+        86%{content: "Develo|";}
+        89%{content: "Devel|";}
+        93%{content: "Deve|";}
+        95%{content: "Dev|";}
+        97%{content: "De|";}
+        99%{content: "D|";}
+        100%{content: "|";}
+    }
+    .About{
+        width: 100%;
+        height: 100rem;
+        padding-bottom: 5%;
+    }
+    .About .img{
+        width: 50%;
+        height: 40%;
+        position: relative;
+        box-sizing: border-box;
+        padding: 0 50%;
+    }
+    .About .img .bord{
+        position: absolute;
+        border: 0 #555555 solid;
+    }
+    .About .img img {
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        top: 6.5rem;
+        left: 15%;
+        border-radius: 2%;
+        z-index: 3;
+    }
+    .About .img img:hover{
+        z-index: 1;
+    }
+    .About .img .Image_Hover{
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        top: 6.5rem;
+        left: 15%;
+        border-radius: 2%;
+        background-color: RGBA(0, 0, 0, 0);
+        z-index: 2;
+        transition: background-color 3s ease-in;
+    }
+    .About .img .Image_Hover:hover{
+        z-index: 4;
+        background-color: RGBA(0, 0, 0, 0.57);
+    }
+    .About .img .Image_Hover .icon{
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        margin-top: 20%;
+        text-align: center;
+    }
+    .About .img .Image_Hover .icon i{
+        width: 50%;
+        float: left;
+        font-size: 2rem;
+        box-sizing: border-box;
+        padding: 25% 5%;
+        color: #fff;
+    }
+    .About .img .Image_Hover .icon i:hover{
+        color: #FF305B;
+    }
+    
+    .About .words{
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+        padding-top: 0rem;
+        padding: 0 15%;
+    }
+    .About .words h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 34px;
+        position: relative;
+    }
+    .About .words h2::before{
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 23px;
+        background-color: #ff305b;
+        top: 1rem;
+    
+    }
+    
+    .About .words .p1{
+        color: #555555;
+        padding-bottom: 1rem ;
+        border-bottom: 1px dashed #999999;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words .words-1{
+        width: 100%;
+    }
+    .About .words .words-1 .words-1-1{
+        width: 100%;
+        float: left;
+    }
+    .About .words .words-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .About .words .words-1 .p2{
+        color: #7E7E7E;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words .words-1 strong{
+        color: black;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words .words-1 .words-1-2{
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding-left: 0;
+    }
+    .About .words button{
+        padding: 1rem;
+        color: #fff;
+        background-color: #FF305B;
+        border: 1px #FF305B solid;
+        border-radius: 5%;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .About .words button:hover{
+        background-color: #EC2403;
+    }
+    .About .words .button-1{
+        margin-right: 1rem;
+    }
+    .Services{
+        background-color: RGB(241, 241, 241);
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Services h2, .Portfolio h2 , .Testimonial h2, .Blog h2, .contact h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4rem;
+        color: #333333;
+        position: relative;
+        padding-top: 5rem;
+    }
+    .ServicesLine{
+        width: 13.6rem;
+        height: 2px;
+        background-color: #FF305B;
+        margin: 1.5rem auto;
+    }
+    .Services h2::before, .Portfolio h2::before, .Testimonial h2::before, .Blog h2::before, .contact h2::before{
+        content: "";
+        position: absolute;
+        width: 7.2rem;
+        height: 1px;
+        background-color: #FF305B;
+        margin: auto;
+        top: 110%;
+        left: 43.8%;
+    }
+    .Services h2::after, .Portfolio h2::after, .Testimonial h2::after, .Blog h2::after, .contact h2::after {
+        content: "";
+        position: absolute;
+        width: 7.2rem;
+        height: 1px;
+        background-color: #FF305B;
+        top: 122%;
+        right: 43.6%;
+        margin: auto;
+    }
+    .Services .Services-1{
+        width: 85%;
+        margin: auto;
+        padding-top: 3.5rem;
+    }
+    .Services .Services-1 .Services-1-1{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 2rem 9rem;
+    }
+    .Services .Services-1 .Services-1-2{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 2rem 9rem;
+    }
+    .Services .Services-1 .Services-1-1:hover{
+        border: 1px #fff solid;
+        height: 100%;
+        border-radius: 2%;
+        background-color: #fff;
+    }
+    
+    .Services .Services-1 .Services-1-1 i{
+        font-size: 32px;
+        color: #FF305B;
+    }
+    .Services .Services-1 .Services-1-1:Hover i{
+        font-size: 4rem;
+    }
+     
+    .Services .Services-1 .Services-1-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        color: #333333;
+        position: relative;
+        padding-top: 1rem;
+    }
+    .Services .Services-1 .Services-1-1:Hover h3{
+        padding-top: 2px;
+        font-size: 20px;
+    }
+    .Services .Services-1 .Services-1-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+    }
+    .Portfolio{
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Portfolio .Portfolio-1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .Portfolio .Portfolio-1 button{
+        box-sizing: border-box;
+        padding: 1rem;
+        background-color: #fff;
+        border: 0px #fff;
+        color: black;
+        font-family: 'Roboto Serif', serif;
+        font-size: 13px;
+        float: left;
+        width: 25%;
+    }
+    .Portfolio .Portfolio-1 .Portfolio-1-1{
+        color: #FF305B;
+    }
+    .Portfolio .Portfolio-2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 0 10%;
+        margin-bottom: 8%;
+        text-align: right;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:hover{
+        background-color: RGBA(0, 0, 0, 0);
+        
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1{
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        top: 100%;
+        background-color: RGBA(0, 0, 0, 0.57);
+        transition: 0.7s;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1{
+        top: 0%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1{
+        position: relative;
+        top: 85%;
+        left: -1%;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1 .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+        font-size: 24px;
+        color: black;
+    }
+    .Portfolio .Portfolio-2 .Portfolio-2-1:Hover .Portfolio-2-1-1 .Portfolio-2-1-1-1 i{
+        color: #FF305B;
+    }
+    .Portfolio-3{
+        width: 100%;
+        background-color: RGB(241, 241, 241);
+        text-align: center;
+    }
+    .Portfolio-3 .Portfolio-3-1{
+        width: 50%;
+        float: left;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 4%;
+    }
+    .Portfolio-3 .Portfolio-3-1 i{
+        font-size: 32px;
+        color: #FF305B;
+    }
+    .Portfolio-3 .Portfolio-3-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 26px;
+        color: #333333;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .Portfolio-3 .Portfolio-3-1 h5{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: #555555;
+    }
+    .Testimonial{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .Testimonial .Testimonial-1{
+        width: 75%;
+        height: 30rem;
+        border: 0px #555555 solid ;
+        margin: auto;
+        margin-top: 4rem;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        background-color: RGB(241, 241, 241);
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-1{
+        position: absolute;
+        width: 29%;
+        height: 125%;
+        background-color: #FF305B;
+        left: -11%;
+        top: -39%;
+        transform: rotate(34deg);
+    }
+    
+    .Testimonial .Testimonial-1 img{
+        position: absolute;
+        width: 24%;
+        height: 28%;
+        left: 13.8rem;
+        top: 2.2rem;
+        border-radius: 50%;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3{
+        position: absolute;
+        width: 85%;
+        top: 9.2rem;
+        left: 10.1%;
+        text-align: left;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 26px;
+        color: #333333;
+        padding-bottom: 1rem;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 h4{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        color: #777777;
+        padding-bottom: 1rem;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 a{
+        color: #777777;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .Testimonial .Testimonial-1 .Testimonial-1-3 .stars i{
+        color: #F1C30D;
+        font-size: 16px;
+    }
+    .Testimonial .Testimonial-2{
+        width: 12%;
+        height: 11px;
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Testimonial .Testimonial-2 .Testimonial-2-1{
+        width: 42%;
+        height: 100%;
+        background-color: #FF305B;
+        border-radius: 34%;
+        float: left;
+        margin-left: 5px;
+    }
+    .Testimonial .Testimonial-2 .Testimonial-2-2{
+        width: 12%;
+        height: 69%;
+        border: 1px #FF305B solid;
+        border-radius: 50%;
+        margin-right: 5px;
+        float: right;
+        margin-top: 1px;
+    }
+    .Blog{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+        background-color: RGB(241, 241, 241);
+    }
+    .Blog .Blog-1{
+        width: 90%;
+        margin: auto;
+    }
+    .Blog .Blog-1 .Blog-1-1{
+        width: 100%;
+        border-radius: 3px;
+        text-align: left;
+        float: left;
+        box-sizing: border-box;
+        padding: 5% 8%;
+    }
+    .Blog .Blog-1 .Blog-1-1 img{
+        width: 100%;
+        aspect-ratio: 2 / 1.1;
+    }
+    .Blog .Blog-1 .Blog-1-1 iframe{
+        width: 100%;
+        aspect-ratio: 2 / 1.1;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5%;
+        background-color: #fff;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 p{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 21px;
+        color: #333333;
+        padding-bottom: 1rem;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a{
+        color: #333333;
+        text-decoration: none;
+        transition: 0.7s;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h3 a:hover,.Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4 a:hover{
+        color: #FF305B;
+    }
+    .Blog .Blog-1 .Blog-1-1 .Blog-1-1-1 h4{
+        color: #555555;
+        font-family: 'Roboto Serif', serif;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .contact{
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .contact .contact-1{
+        width: 75%;
+        margin: auto;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .contact .contact-1 .contact-1-1{
+        width: 100%;
+    }
+    .contact .contact-1 .contact-1-1 input{
+        width: 45%;
+        box-sizing: border-box;
+        padding: 1rem;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        float: left;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    .contact .contact-1 .contact-1-1 input[type="email"]{
+        margin-left: 10%;
+    }
+    .contact .contact-1 input[name="Subject"]{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        display: block;
+        margin-top: 3rem;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    .contact .contact-1 .textarea{
+        width: 100%;
+        height: 67px;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        display: block;
+        margin-top: 3rem;
+        resize: none;
+        font-size: 16px;
+        outline: 0;
+        color: #000;
+        transition: 0.3s ease-in;
+    }
+    .contact .contact-1 input:focus{
+        border: 1px #a94442 solid;
+        box-shadow: 1px 1px 3px 0px #a94442;
+    }
+    .contact .contact-1 .textarea:focus{
+        border: 1px #a94442 solid;
+        box-shadow: 1px 1px 5px 0px #a94442;
+    }
+    .contact .contact-1 button{
+        padding: 1rem;
+        color: #fff;
+        background-color: #FF305B;
+        border: 1px #FF305B solid;
+        border-radius: 5%;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+    .contact .contact-1 button:hover{
+        background-color: #EC2403;
+    }
+    .fotter{
+        width: 100%;
+        background-color: #333333;
+        text-align: center;
+    }
+    .fotter .fotter-1{
+        width: 65%;
+        margin: auto;
+    }
+    .fotter .fotter-1 .icon{
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        margin-top: 20%;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .fotter .fotter-1 .icon i{
+        width: 25%;
+        float: left;
+        font-size: 20px;
+        padding-top:25% ;
+        color: #fff;
+    }
+    .fotter .fotter-1 .icon i:hover{
+        color: #FF305B;
+    }
+    .fotter .fotter-1 p{
+        padding-bottom: 10%;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+        font-size: 16px;
+    }
+    .fotter .fotter-1 a{
+        color: #FF305B;
+        text-decoration: none;
+    }
+    .fotter .fotter-1 a:hover{
+        text-decoration-line: underline;
+    }
+}
+/* End of Last Media */
